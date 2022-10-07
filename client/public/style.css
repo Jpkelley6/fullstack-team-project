@@ -1,0 +1,18 @@
+.mastercontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.container{
+    margin: 60px;
+}
+
+.container2{
+    margin: 60px;
+}
+
+.container3{
+    margin: 60px;
+}
