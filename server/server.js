@@ -7,7 +7,7 @@ const app = express()
 //importing pg
 const {Client} =  require('pg')
 //connection string
-const connectionString = 'postgresql://postgres:docker@127.0.0.1:5432/sports_team'
+const connectionString = 'postgresql://postgres:cat@127.0.0.1:5432/sports_team'
 //connection string connection 
 const client = new Client({
     connectionString: connectionString
